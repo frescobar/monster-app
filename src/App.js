@@ -1,7 +1,8 @@
 import React from 'react';
-import CardList from "./components/card-list/CardList";
-import SearchBox from "./components/search-box/SearchBox"
 
+import CardList from "./components/card-list/CardList";
+import SearchBox from "./components/search-box/SearchBox";
+import Title from "./components/title/Title";
 
 class App extends React.Component{
 
@@ -30,6 +31,7 @@ class App extends React.Component{
     });
   return (
           <div className = 'app'>
+            <Title />
             <SearchBox 
              handleOnSearch = {this.handleOnSearch}/
              >
