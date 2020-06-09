@@ -1,0 +1,13 @@
+
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(94,29,253,1) 50%, rgba(252,176,69,1) 100%);
+  }
+
+
+  
