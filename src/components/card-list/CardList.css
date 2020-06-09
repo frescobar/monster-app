@@ -19,10 +19,11 @@
 
 h2,p{
     text-align: center;
-    color: rgb(16, 76, 167);
+    color: rgb(18, 63, 49);
+    font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .card-container img{
     width: 100%;
     height: auto;
